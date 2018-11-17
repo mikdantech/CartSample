@@ -1,0 +1,116 @@
+D:\CartSample (develop -> origin)
+λ rails g spree:install --user_class=Spree::User
+[WARNING] You are not setting Devise.secret_key within your application!
+You must set this in config/initializers/devise.rb. Here's an example:
+
+Devise.secret_key = "03663eb3024e0b248b49f8f51ff1fbee4cac96290bd6d0cad9b7548fa9d6a98931590540b04529c3efd1e43e86ca59649ca9"
+      create  config/initializers/spree.rb
+      append  public/robots.txt
+      create  vendor/assets/javascripts/spree/frontend
+      create  vendor/assets/javascripts/spree/backend
+      create  vendor/assets/stylesheets/spree/frontend
+      create  vendor/assets/stylesheets/spree/backend
+      create  vendor/assets/images/spree/frontend
+      create  vendor/assets/images/spree/backend
+      create  vendor/assets/javascripts/spree/frontend/all.js
+      create  vendor/assets/stylesheets/spree/frontend/all.css
+      create  vendor/assets/javascripts/spree/backend/all.js
+      create  vendor/assets/stylesheets/spree/backend/all.css
+      create  app/overrides
+    generate  spree:frontend:copy_views
+[WARNING] You are not setting Devise.secret_key within your application!
+You must set this in config/initializers/devise.rb. Here's an example:
+
+Devise.secret_key = "cd6606cb8395c5ffd98ce410068f168728a316e4439796b3fc06cd4c737a4b324820a70dc2e6f6215091c86411fe8a34dc3b"
+       exist  app/views
+      create  app/views/kaminari/twitter-bootstrap-3/_first_page.html.erb
+      create  app/views/kaminari/twitter-bootstrap-3/_gap.html.erb
+      create  app/views/kaminari/twitter-bootstrap-3/_last_page.html.erb
+      create  app/views/kaminari/twitter-bootstrap-3/_next_page.html.erb
+      create  app/views/kaminari/twitter-bootstrap-3/_page.html.erb
+      create  app/views/kaminari/twitter-bootstrap-3/_paginator.html.erb
+      create  app/views/kaminari/twitter-bootstrap-3/_prev_page.html.erb
+      create  app/views/spree/address/_form.html.erb
+      create  app/views/spree/checkout/_address.html.erb
+      create  app/views/spree/checkout/_confirm.html.erb
+      create  app/views/spree/checkout/_delivery.html.erb
+      create  app/views/spree/checkout/_payment.html.erb
+      create  app/views/spree/checkout/_summary.html.erb
+      create  app/views/spree/checkout/edit.html.erb
+      create  app/views/spree/checkout/payment/_check.html.erb
+      create  app/views/spree/checkout/payment/_gateway.html.erb
+      create  app/views/spree/checkout/payment/_storecredit.html.erb
+      create  app/views/spree/content/cvv.html.erb
+      create  app/views/spree/content/test.html.erb
+      create  app/views/spree/home/index.html.erb
+      create  app/views/spree/layouts/spree_application.html.erb
+      create  app/views/spree/orders/_adjustment_row.html.erb
+      create  app/views/spree/orders/_adjustments.html.erb
+      create  app/views/spree/orders/_form.html.erb
+      create  app/views/spree/orders/_line_item.html.erb
+      create  app/views/spree/orders/edit.html.erb
+      create  app/views/spree/orders/show.html.erb
+      create  app/views/spree/products/_cart_form.html.erb
+      create  app/views/spree/products/_product.html.erb
+      create  app/views/spree/products/_promotions.html.erb
+      create  app/views/spree/products/_properties.html.erb
+      create  app/views/spree/products/_taxons.html.erb
+      create  app/views/spree/products/_thumbnails.html.erb
+      create  app/views/spree/products/index.html.erb
+      create  app/views/spree/products/show.html.erb
+      create  app/views/spree/shared/_address.html.erb
+      create  app/views/spree/shared/_error_messages.html.erb
+      create  app/views/spree/shared/_filters.html.erb
+      create  app/views/spree/shared/_head.html.erb
+      create  app/views/spree/shared/_header.html.erb
+      create  app/views/spree/shared/_link_to_cart.html.erb
+      create  app/views/spree/shared/_login.html.erb
+      create  app/views/spree/shared/_login_bar.html.erb
+      create  app/views/spree/shared/_main_nav_bar.html.erb
+      create  app/views/spree/shared/_nav_bar.html.erb
+      create  app/views/spree/shared/_order_details.html.erb
+      create  app/views/spree/shared/_payment.html.erb
+      create  app/views/spree/shared/_products.html.erb
+      create  app/views/spree/shared/_search.html.erb
+      create  app/views/spree/shared/_shipment_tracking.html.erb
+      create  app/views/spree/shared/_sidebar.html.erb
+      create  app/views/spree/shared/_taxonomies.html.erb
+      create  app/views/spree/shared/_translations.html.erb
+      create  app/views/spree/shared/forbidden.html.erb
+      create  app/views/spree/shared/unauthorized.html.erb
+      create  app/views/spree/taxons/_taxon.html.erb
+      create  app/views/spree/taxons/show.html.erb
+      append  db/seeds.rb
+     copying  migrations
+    creating  database
+     running  migrations
+     loading  seed data
+        rake  db:seed
+[WARNING] You are not setting Devise.secret_key within your application!
+You must set this in config/initializers/devise.rb. Here's an example:
+
+Devise.secret_key = "e0aed52da05b7e9a885b96d8c72307358375fa17802853a6a71458654650672c141af90ef38d841b3f101bd7a61336804570"
+loading ruby C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/spree_core-3.6.5/db/default/spree/countries.rb
+loading ruby C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/spree_core-3.6.5/db/default/spree/default_reimbursement_type.rb
+loading ruby C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/spree_core-3.6.5/db/default/spree/roles.rb
+loading ruby C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/spree_core-3.6.5/db/default/spree/states.rb
+loading ruby C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/spree_core-3.6.5/db/default/spree/stores.rb
+loading ruby C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/spree_core-3.6.5/db/default/spree/zones.rb
+loading ruby C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/spree_auth_devise-3.4.2/db/default/users.rb
+Create the admin user (press enter for defaults).
+Email [spree@example.com]: mani@gmail.com
+Password [spree123]:
+Done!
+     loading  sample data
+      insert  config/routes.rb
+**************************************************
+We added the following line to your application's config/routes.rb file:
+
+    mount Spree::Core::Engine, at: '/'
+**************************************************
+Spree has been installed successfully. You're all ready to go!
+
+Enjoy!
+
+D:\CartSample (develop -> origin)
+λ
