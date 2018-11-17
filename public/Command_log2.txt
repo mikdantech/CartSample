@@ -1,0 +1,13 @@
+D:\CartSample (develop2 -> origin)
+λ rails g spree:auth:install
+[WARNING] You are not setting Devise.secret_key within your application!
+You must set this in config/initializers/devise.rb. Here's an example:
+
+Devise.secret_key = "bc4f9a52000c0f69506beec96e39c573318e105bf977c5c0fdfcf41ec81d042954c5142d25b17c35e85da866189953d8bce9"
+      append  vendor/assets/javascripts/spree/frontend/all.js
+      create  config/initializers/devise.rb
+         run  bundle exec rake railties:install:migrations FROM=spree_auth from "."
+         run  bundle exec rake db:migrate VERBOSE=false from "."
+
+D:\CartSample (develop2 -> origin)
+λ
