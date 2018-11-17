@@ -1,0 +1,12 @@
+D:\CartSample (develop2 -> origin)
+λ git checkout -b develop3
+Switched to a new branch 'develop3'
+
+D:\CartSample (develop3 -> origin)
+λ rails g spree_gateway:install
+         run  bundle exec rake railties:install:migrations FROM=spree_gateway from "."
+Would you like to run the migrations now? [Y/n] Y
+         run  bundle exec rake db:migrate from "."
+
+D:\CartSample (develop3 -> origin)
+λ
